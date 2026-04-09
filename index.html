@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUR NAME - Portfolio</title>
+    <meta name="description" content="Fullstack Developer Portfolio">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">YOUR INITIALS</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="accent">YOUR FULL NAME</span></h1>
+            <p class="hero-subtitle">Fullstack Developer creating amazing digital experiences</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>Passionate developer with 3+ years experience building web applications.</p>
+                <p>Specializing in React, Node.js, and modern web technologies.</p>
+            </div>
+            <img src="profile.jpg" alt="Your Name" class="profile-img">
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML5/CSS3</h3>
+                    <p>Modern layouts & animations</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>React, Node.js, ES6+</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>React</h3>
+                    <p>Next.js, Redux, Hooks</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Backend</h3>
+                    <p>Node, Express, MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">E-Commerce</div>
+                <div class="project-content">
+                    <h3>Shopify Clone</h3>
+                    <p>Fullstack e-commerce platform</p>
+                    <p><strong>React | Node | Stripe</strong></p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">Task App</div>
+                <div class="project-content">
+                    <h3>TaskMaster</h3>
+                    <p>Real-time task management</p>
+                    <p><strong>Next.js | Socket.io</strong></p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">Portfolio</div>
+                <div class="project-content">
+                    <h3>This Portfolio</h3>
+                    <p>Responsive portfolio site</p>
+                    <p><strong>HTML | CSS | JS</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your.email@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 YOUR NAME. Made with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
